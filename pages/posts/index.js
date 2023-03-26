@@ -29,6 +29,8 @@ export default function Posts({ allPostsData }) {
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <br />
+              <Link href={`/posts/${id}/edit`}>Edit</Link>
             </li>
           ))}
         </ul>
