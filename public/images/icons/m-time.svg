@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g id="Group_2451" data-name="Group 2451" transform="translate(-79 -236)">
+        <g id="Group_2450" data-name="Group 2450" transform="translate(22)">
+            <g id="XMLID_14_" transform="translate(58 238)">
+                <path id="XMLID_15_" fill="#666" stroke="#666" stroke-width="0.2px" d="M.566 12.45h11.318a.566.566 0 0 0 .566-.566V1.7a.566.566 0 0 0-.566-.566H8.677V.566a.566.566 0 1 0-1.132 0v.566H4.9V.566a.566.566 0 1 0-1.132 0v.566H.566A.566.566 0 0 0 0 1.7v10.184a.566.566 0 0 0 .566.566zm.566-1.132V4.527h10.186v6.791zm10.186-9.054V3.4H1.132V2.264z"/>
+            </g>
+            <path id="Rectangle_2625" fill="none" d="M0 0H16V16H0z" data-name="Rectangle 2625" transform="translate(57 236)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="76" viewBox="0 0 176 76">
+    <g fill="none" fill-rule="evenodd" transform="translate(1)">
+        <circle cx="56" cy="35" r="6" stroke="#C5C5C5" stroke-width="2"/>
+        <circle cx="62" cy="71" r="4" stroke="#14CC2A"/>
+        <circle cx="139" cy="56" r="4" stroke="#14CC2A"/>
+        <circle cx="160.5" cy="23.5" r="2.5" stroke="#14CC2A" stroke-width="2"/>
+        <circle cx="120.5" cy="66.5" r="5.5" stroke="#6D6D6D" stroke-width="2"/>
+        <circle cx="128.5" cy="38.5" r="1.5" stroke="#14CC2A"/>
+        <circle cx="30.5" cy="54.5" r="2.5" stroke="#6D6D6D" stroke-width="2"/>
+        <path stroke="#C5C5C5" stroke-linecap="square" d="M.382 46.618l12.091-12.091"/>
+        <path stroke="#6D6D6D" stroke-linecap="square" d="M165.375 56.625l8.385-8.385"/>
+        <path stroke="#979797" stroke-linecap="square" d="M40.357 69.643l3.945-3.945"/>
+        <path stroke="#6D6D6D" stroke-linecap="square" d="M75 11L86 0"/>
+        <path fill="#14CC2A" d="M86.233 49.944l26.015-26.015a2 2 0 0 1 2.829 0l4.525 4.525a2 2 0 0 1 0 2.828l-27.43 27.43-4.39 4.39a2 2 0 0 1-2.828 0L69.398 47.546a2 2 0 0 1 0-2.828l4.39-4.39a2 2 0 0 1 2.828 0l9.617 9.616z"/>
+    </g>
+</svg>

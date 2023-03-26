@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="8px" viewBox="0 0 15 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>down-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="psychometric" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fill-Personal-Details" transform="translate(-868.000000, -277.000000)" fill="#666666" fill-rule="nonzero">
+            <g id="down-arrow" transform="translate(868.000000, 277.000000)">
+                <path d="M14.8465234,0.154589372 C14.6397833,-0.0515297907 14.3038306,-0.0515297907 14.0970905,0.154589372 L7.50724985,6.73752013 L0.904487934,0.154589372 C0.697747835,-0.0515297907 0.361795173,-0.0515297907 0.155055074,0.154589372 C-0.0516850248,0.360708535 -0.0516850248,0.695652174 0.155055074,0.901771337 L7.11961216,7.84541063 C7.22298221,7.94847021 7.35219478,8 7.49432859,8 C7.62354116,8 7.76567497,7.94847021 7.86904502,7.84541063 L14.8336021,0.901771337 C15.0532635,0.695652174 15.0532635,0.360708535 14.8465234,0.154589372 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

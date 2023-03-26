@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g transform="translate(-1183 -131)">
+        <rect width="24" height="24" fill="#fff" opacity="0.1" rx="4" transform="translate(1183 131)"/>
+        <g>
+            <g>
+                <path fill="#fff" d="M6.748 7.144l-5.28 5.59a.826.826 0 0 1-1.216 0 .949.949 0 0 1 0-1.287L4.924 6.5.252 1.554a.949.949 0 0 1 0-1.287.827.827 0 0 1 1.216 0l5.28 5.59a.948.948 0 0 1 0 1.287z" transform="translate(1183 155) rotate(-90) translate(19 9) rotate(90)"/>
+            </g>
+        </g>
+    </g>
+</svg>
