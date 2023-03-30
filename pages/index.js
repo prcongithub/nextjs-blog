@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import { LikeButton, Header, Alert } from '../components'
 import Image from 'next/image';
@@ -7,25 +7,52 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout, {siteTitle} from 'components/layout';
 import utilStyles from 'styles/utils.module.css';
+const name = 'Prashant Chaudhari';
+import { useTranslation } from 'next-i18next'
 
 function Home() {
   const [likes, setLikes] = useState(0);
-  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+  const { t, i18n } = useTranslation(
+    ['common'], 
+    { 
+      bindI18n: 'languageChanged loaded' 
+    }
+  )
+  // bindI18n: loaded is needed because of the reloadResources call
+  // if all pages use the reloadResources mechanism, the bindI18n option can also be defined in next-i18next.config.js
+  useEffect(() => {
+    i18n.reloadResources(i18n.resolvedLanguage, ['common'])
+  }, [])
 
   return (
     <Layout home>
       <Head><title>{siteTitle}</title></Head>
+      <header className={utilStyles.header}>
+        <>
+          <Image
+            priority
+            src="/images/one_sitting.png"
+            className={utilStyles.borderCircle}
+            height={144}
+            width={144}
+            alt=""
+          />
+          <h1 className={utilStyles.heading2Xl}>{name}</h1>
+          <h4>{t('HELLO_WORLD')}</h4>
+        </>
+      </header>
       <div>
-        <Alert type='success'>Successfule Setup</Alert>
+        { 
+          showSuccessAlert && <Alert type='success'>Successfule Setup</Alert>
+        }
+        <button onClick={()=>{setShowSuccessAlert(!showSuccessAlert)}}>{showSuccessAlert ? 'Hide' : 'Show'} Success Alert</button>
         <Header title={ `Welcome to Next.js! Total Likes: ${likes}` }/>
-        <Link href="/posts">Posts</Link>
+        <Link href="/posts">Posts</Link><br/>
+        <Link href="/products">Products</Link>
         <hr/>
         <LikeButton likes={likes} setLikes={setLikes}/>
-        <ul>
-          {names.map((name) => (
-            <li key={name}>{name}</li>
-          ))}
-        </ul>
+        <br/>
         <Image
           src="/images/eye_icon.svg" // Route of the image file
           height={144} // Desired size with correct aspect ratio
