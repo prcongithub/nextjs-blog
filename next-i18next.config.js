@@ -7,7 +7,7 @@ module.exports = {
     backendOptions: [
       { expirationTime: 10*1000 }, 
       /* { loadPath: 'http://localhost:3000/'} */
-      { loadPath: "http://localhost:3000/locales/{{lng}}/{{ns}}.json" }
+      { loadPath: "https://nextjs-demo.ur-nl.com/locales/{{lng}}/{{ns}}.json" }
     ], // 1 hour
     backends: typeof window !== 'undefined' ? [LocalStorageBackend, HttpBackend]: [],
   },
