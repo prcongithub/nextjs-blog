@@ -1,8 +1,6 @@
 // 📦 file: ./next.config.js
-const nextTranslate = require('next-translate-plugin')
-
-module.exports = nextTranslate({
+module.exports = {
   webpack: (config, { isServer, webpack }) => {
     return config;
   }
-})
+}
