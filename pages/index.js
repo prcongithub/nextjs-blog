@@ -19,6 +19,7 @@ function Home() {
       bindI18n: 'languageChanged loaded' 
     }
   )
+  i18n.setResolvedLanguage(i18n.resolvedLanguage || 'en')
   // bindI18n: loaded is needed because of the reloadResources call
   // if all pages use the reloadResources mechanism, the bindI18n option can also be defined in next-i18next.config.js
   useEffect(() => {
