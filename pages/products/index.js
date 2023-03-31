@@ -4,8 +4,25 @@ import utilStyles from 'styles/utils.module.css';
 import Link from 'next/link';
 
 export default function Products() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([
+    {
+      id: 1,
+      name: "iPhone 12",
+      price: 45000
+    },
+    {
+      id: 2,
+      name: "Sony Bravia",
+      price: 80000
+    },
+    {
+      id: 3,
+      name: "Amazon Echo",
+      price: 4000
+    }
+  ]);
 
+/*
   useEffect(()=>{
     async function fetchData() {
       const response = await fetch('/api/products',{
@@ -15,7 +32,8 @@ export default function Products() {
     }
     fetchData();
   },[])
-  
+*/
+
   return (
     <Layout backLink='/'>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
