@@ -49,6 +49,7 @@ function Home() {
         }
         <button onClick={()=>{setShowSuccessAlert(!showSuccessAlert)}}>{showSuccessAlert ? 'Hide' : 'Show'} Success Alert</button>
         <Header title={ `Welcome to Next.js! Total Likes: ${likes}` }/>
+        <Link href="/about">About Us</Link><br/>
         <Link href="/posts">Posts</Link><br/>
         <Link href="/products">Products</Link>
         <hr/>
